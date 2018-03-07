@@ -1,0 +1,21 @@
+{
+  "name": "Testing",
+  "version": "1.0.0",
+  "description": "MEAN Stack website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "padmapriya",
+  "dependencies": {
+    "express": "~4.7.2",
+    "morgan": "~1.2.2",
+    "body-parser": "~1.5.2",
+    "method-override": "~2.1.2"
+  }
+}
