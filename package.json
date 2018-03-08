@@ -2,7 +2,7 @@
   "name": "Testing",
   "version": "1.0.0",
   "description": "MEAN Stack website",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -13,10 +13,12 @@
   ],
   "author": "padmapriya",
   "dependencies": {
-    "express": "~4.7.2",
-    "morgan": "~1.2.2",
     "body-parser": "~1.5.2",
-    "method-override": "~2.1.2"
+    "express": "~4.7.2",
+    "method-override": "~2.1.2",
+    "mongojs": "^2.5.0",
+    "mongoose": "^5.0.9",
+    "morgan": "~1.2.2"
   },
   "devDependencies": {
     "dotenv": "^5.0.1"
